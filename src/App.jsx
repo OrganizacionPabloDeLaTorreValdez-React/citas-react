@@ -1,6 +1,6 @@
-import Header from "./components/Header"
-import Formulario from "./components/Formulario"
-import ListadoPacientes from './components/ListadoPacientes'
+import Header from "./components/Header.jsx"
+import Formulario from "./components/Formulario.jsx"
+import ListadoPacientes from './components/ListadoPacientes.jsx'
 
 function App() {
   return (

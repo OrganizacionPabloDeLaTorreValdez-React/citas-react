@@ -1,6 +1,8 @@
 function Header()  {
   return (
-    <h1>Desde header</h1>
+    <header className="grid">
+      <h1 className="text-indigo-600 mt-2 uppercase">Desde header</h1>
+    </header>
   )
 }
 
