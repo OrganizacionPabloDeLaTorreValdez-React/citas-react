@@ -1,9 +1,10 @@
-function Header()  {
+function Header() {
   return (
-    <header className="grid">
-      <h1 className="text-indigo-600 mt-2 uppercase">Desde header</h1>
-    </header>
-  )
+    <h1 className="font-black text-5xl text-center md:w-2/3 mx-auto">
+      Seguimiento pacientes {' '}
+      <span className="text-indigo-600">Veterinaria</span>
+    </h1>
+  );
 }
 
 export default Header;
